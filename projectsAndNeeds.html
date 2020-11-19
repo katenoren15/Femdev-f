@@ -1,0 +1,399 @@
+<style>
+        .timeline{
+            position: relative;
+            margin: 50px auto;
+            padding: 40px 0;
+            width: 1000px;
+            box-sizing: border-box;
+        }
+        .timeline::before{
+            content: '';
+            position: absolute; 
+            left: 50%;
+            width: 2px;
+            height: 100%;
+            background: red;
+        }
+        .timeline ul{
+            margin: 0;
+            padding: 0;  
+        }
+        .timeline ul li{
+            list-style: none;
+            position: relative;
+            width: 50%;
+            padding: 20px 40px;
+            box-sizing: border-box;
+        }
+        .timeline ul li:nth-child(odd){
+            float: left;
+            text-align: right;
+            clear: both;
+        }
+        .timeline ul li:nth-child(even){
+            float: right;
+            text-align: left;
+            clear: both;
+        }
+        .content{
+            padding-bottom: 20px;
+        }
+        .timeline ul li:nth-child(odd):before{
+            content: '';
+            top: 24px;
+            right: -6px ;
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #011b58;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px #011b58;
+        }
+        .timeline ul li:nth-child(even):before{
+            content: '';
+            top: 24px;
+            left: -4px ;
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #011b58;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px #011b58;
+        }
+        .timeline ul li h3{
+            margin: 0;
+            padding: 0;
+            font-weight: 600;
+            color: #011b58; 
+        }
+        .timeline ul li p{
+            margin: 10px 0 0;
+            padding: 0;
+        }
+        .timeline ul li .time h4{
+            margin: 0;
+            padding : 0;
+            font-size: 14px;  
+        }
+        .timeline ul li:nth-child(odd) .time{
+            position: absolute;
+            top: 12px;
+            right:  -165px;
+            margin: 0;
+            padding: 8px 16px;
+            background: #011b58;
+            color: white;
+            border-radius: 18px;
+            box-shadow: 0 0 0 3px red;
+        }
+        .timeline ul li:nth-child(even) .time{
+            position: absolute;
+            top: 12px;
+            left:  -165px;
+            margin: 0;
+            padding: 8px 16px;
+            background: #011b58;
+            color: white;
+            border-radius: 18px;
+            box-shadow: 0 0 0 3px red;
+        }
+    </style>
+    <div id="preloader">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <!-- #preloader -->
+
+    <section class="xs-banner-inner-section about-window" style="background-image:url('assets/images/Debbie.jpg')">
+        <div class="xs-black-over"></div>
+        <div class="container">
+            <div class="color-white xs-inner-banner-content capacity_building">
+                <h1>Our Projects and Needs</h1>
+                <p> Since its inception in 2006, FEMDEV has undertaken many projects and has had many accomplishments, the major ones are captured here: </p>
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+    <section class="xs-section-padding capacity-padding ">
+        <div class="container ">
+                <div class="xs-text-content xs-pl-30 xs-heading ">
+                        <h3 class="xs-title big">Timeline of Achievements</h3>
+                    </div>
+            <div class="row">
+                    <div class="timeline">
+                            <ul>
+                                <li>
+                                    <div class="content" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000">
+                                        <h3>Inception of FEMDEV</h3>
+                                    </div>
+                                    <div class="time" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000">
+                                        <h4>October 2006</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000">
+                                        <h3>Women and Youth Support Groups</h3>
+                                        <p class="title">Created women and youth support groups in villages like Bingerville, Koumassi, Abobo
+                                        dume, Issia, Guiglo and Aboisso to offer psycho social, spiritual and economic support to women and youth. Women in Abidjan chapter helped 
+                                        those members in Aboisso chapter to sell their agricultural product known as gari (cassava flour) to fight against poverty and food insecurity.</p>
+                                    </div>
+                                    <div class="time" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000">
+                                        <h4>August 2011</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000">
+                                        <h3>Gave Grants</h3>
+                                        <p class="title">FEMDEV gave small grants to more than 10 women to do income generating activities and open their personal accounts in</p>
+                                    </div>
+                                    <div class="time" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000">
+                                        <h4 class="title">August 2011</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000">
+                                       <h3>Employment Assistance</h3>
+                                        <span class="title">FEMDEV assisted more than 15 people in getting gainful employment in different disciplines like project co-ordination, logistics and office management.</span>
+                                    </div>
+                                    <div class="time" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000">
+                                        <h4 class="text-center">Over a couple of <br>years</h4>
+                                    </div>
+                                </li>
+                                <div style="clear: both;"></div>
+                            </ul>
+                        </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+            <div class="container">
+                <div class="terms-section__divider"></div>
+            </div>
+        </section>
+    <section class="xs-section-padding capacity-padding ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="Dev_Training">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="capacity_headings">
+                                    <h2>Current Femdev Projects</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="incom_generates_img" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="1000">
+                        <div class="card-img-top">
+                            <img src="assets/images/donation.jpg" alt="..." class="rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-30">
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>Sensitizing and training volunteers who will be involved in the community work of FEMDEV.</p></span>
+                    </div>
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>Mobilizing funds for the construction of a community center which will include a training centre, health centre and a bilingual library. </p></span>
+                    </div>
+                     <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>Doing life skill education training and sensitization programs regarding job creation for the youth, campaigns against early marriages and early pregnancy. </p></span>
+                    </div>
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>The organization regularly distributes rice, oil, tomato paste, sardines and condiments as well as clothes and shoes to the less privileged including displaced people, orphans, and widows several times in a year.</p></span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="terms-section__divider"></div>
+        </div>
+    </section>
+
+    <section class="xs-section-padding capacity-padding ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 d-sm-block d-lg-none">
+                    <div class="Dev_Training ">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="badge">2</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="capacity_headings">
+                                    <h2>Future Projects</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="incom_generates_img" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="1000">
+                        <div class="card-img-top">
+                            <img src="assets/images/african-.jpg" alt="..." class="rounded-circle">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-30">
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>To mobilize funds for free mobile clinic.</p></span>
+
+                    </div>
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>To train the coordinators of literacy program.</p></span>
+                    </div>
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>To sensitize women in other countries to register FEMDEV in their own countries and collaborate with other established partners to alleviate poverty, unemployment, illiteracy and diseases especially among women and youth in pursuance of MDG.</p></span>
+                    </div>
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p> To build a training centre in Abidjan as well conduct leadership training in sustainable development for leaders of FEMDEV. </p></span>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6 d-none d-sm-block">
+                    <div class="Dev_Training">
+                        <div class="row">
+
+                            <div class="col-md-7">
+                                <div class="capacity_headings">
+                                    <h2>Future Projects</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="incom_generates_img" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="1000">
+                        <div class="card-img-top">
+                            <img src="assets/images/african-.jpg" alt="..." class="rounded-circle">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="terms-section__divider"></div>
+        </div>
+    </section>
+    <section class="xs-section-padding capacity-padding ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="Dev_Training">
+                        <div class="row">
+
+                            <div class="col-md-7">
+                                <div class="capacity_headings">
+                                    <h2>Our Immediate needs</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="incom_generates_img" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="1000">
+                        <div class="card-img-top">
+                            <img src="assets/images/Sewing.jpg" alt="..." class="rounded-circle">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-30">
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>5 computers and 5 printers</p></span>
+                    </div>
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>1 vehicle (4 x 4 or a van)</p></span>
+                    </div>
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>10 Sewing machines</p></span>
+                    </div>
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>Literacy materials</p></span>
+                    </div>
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>10 bicycles and motor cycles for peer educators </p></span>
+                    </div>
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p>Clothes, shoes, school kits to school children at the beginning of the school year</p></span>
+                    </div>
+                    <div class="Development">
+                        <span class="fa fa-long-arrow-right"></span>
+                        <span class="title"><p> Food kits for our food bank </p></span>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="xs-section-padding founder">
+        <div class="container ">
+            <div class="xs-text-content xs-pl-30 theory xs-heading ">
+                <h3 class="xs-title big " data-title="A WORD "> A Word from the Founder</h3>
+            </div>
+           
+            <div class="row">
+                <div class="col-md-12 col-lg-10 offset-lg-1" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000">
+                    <p>
+                        Women and youth have always been considered by the world as vulnerable people with very little buying power. Illiteracy rate among women is the highest the world over. The girl child is considered as one belonging to another family and is married off prematurely without substantial investment into her life. There has to be a change.
+                    </p>
+                    <p>
+                       Ever since I decided to start mobilizing women and youth and start coaching and mentoring them to discover and grow their potentials, I am the happiest woman in the world. Not only did I organize capacity building workshops for them in various fields but I helped to find jobs for quite a number of them with the help of God. I have motivated and boosted their morale so much that many are in leadership positions today. Many are now able to read and write. Others have learnt to use the computer or begin and manage income generating activities. Many have learnt that the wealth they created is not just for their use but that they must share it with the less-privileged. Those who never thought they could be leaders became successful leaders, even traveling outside the country for leadership conferences. There are amazing potentials in women and youth.
+
+                    </p>
+                    <p>
+                      This website is about the work we have done since 2006. My desire is that this can be replicated in other countries by other passionate other people. We humans are social beings and are meant to encourage one another. A saying goes like this, “I am, because you are and you are because I am” It simply means that a woman or youth can become someone today because of the knowledge or help received from someone else. Monetary and material contributions will strengthen our initiatives with these women, as well as help and encourage more women and youth to work more effectively. Even further, we hope to convince many parents to stop early marriages among the girls and give them opportunities to develop their God-given potentials. Every child has a right to education. That is why we are able to impact the world today in various capacities. We have to leave something behind as a legacy for the next generation. 
+                      I am deeply grateful and indebted to my parents, the late Alfred and Pricilla Okoro in South-East Nigeria who sacrificed their whole life’s earnings to send me and my eight siblings to school to the highest point we wanted to. They did it with a lot of joy and happiness though not without challenges. It was a worthy investment hence you can see the fruits in my life today and that of my siblings.
+
+                    </p>
+                    <strong><p>Stella Chika Okoronkwo</p></strong>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="promo-box brand-bg1 ptb-70 ">
+        <div class="container ">
+            <div class="col-md-12 ">
+                <div class="promo-info ">
+                    <h4 class="font-25 white-text text-bold no-margin xs-section-padding-donate "> When making a donation, kindly specify that your donation is to FEMDEV</h4>
+                </div>
+                <div class="promo-btn ">
+                    <a href="https://co.clickandpledge.com/sp/d1/default.aspx?wid=75848" class="btn btn-primary"> Make Donation </a>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
