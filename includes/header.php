@@ -141,14 +141,14 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse collapsibleNavbar justify-content-end" style="border:1px solid black;">
-            <ul class="nav" style="border:1px solid black;">
+        <div class="collapse navbar-collapse collapsibleNavbar justify-content-end" style="">
+            <ul class="nav" style="">
                 <li class="nav-item mr-5">
                     <div style="border:1px solid black;">
                         <script async src="https://cse.google.com/cse.js?cx=006140751344758873809:zcuhzrhquza"></script>
                         <div style="width:1000%;max-width:400px;" class="gcse-searchbox-only"></div>
                 </li>
-                <li class="nav-item" style="border:1px solid blue;">
+                <li class="nav-item" style="">
                     <a href="https://co.clickandpledge.com/sp/d1/default.aspx?wid=75848" class="btn btn-primary">
                         Donate Now
                     </a>
