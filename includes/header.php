@@ -144,7 +144,7 @@
         <div class="collapse navbar-collapse collapsibleNavbar justify-content-end" style="">
             <ul class="nav" style="">
                 <li class="nav-item mr-5">
-                    <div style="border:1px solid black;">
+                    <div style="">
                         <script async src="https://cse.google.com/cse.js?cx=006140751344758873809:zcuhzrhquza"></script>
                         <div style="width:1000%;max-width:400px;" class="gcse-searchbox-only"></div>
                 </li>
