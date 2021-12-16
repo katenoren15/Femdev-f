@@ -16,9 +16,10 @@
                         <h3 class="widget-title">Quick Links</h3>
                         <ul class="xs-footer-list">
 
-                            <li><a href="index.php?page=about-us">About us</a></li>
+                            <li><a href="index.php?page=about-us">About Us</a></li>
                             <li><a href="index.php?page=success-stories">Success Stories</a></li>
                             <li><a href="index.php?page=capacity-building">Capacity Building</a></li>
+                            <li><a href="index.php?page=blog">Blog</a></li>
                           
                         </ul>
                     </div>
@@ -35,7 +36,7 @@
                 </div>
             </div>
             <div class="global-footer__grid">
-                <h3 style="text-align: center;">Organisations we partner with</h3>
+                <h3 style="text-align: center;">Organisations We Partner With</h3>
                 <div class="grid__column col-md-10 offset-md-2">
                     <div class=" global_partners ">
                         <div class="row">

@@ -7,7 +7,7 @@
     $emailFrom = $_POST["email"];
     $message = $_POST["message"];
     
-    $emailTo = "kachy211@gmail.com";
+    $emailTo = "info@femdev.com";
     $headers = "From: ". $emailFrom;
     $txt = "You have received an email from the contact form on the FEMDEV website. \n\n First Name: ".$fname. " \n Last Name: "
     .$lname." \nPhone Number: ".$phone."\n Message: ".$message;

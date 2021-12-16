@@ -99,6 +99,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>FEMDEV</title>
+    <meta name="keywords" content"FEMDEV, women, NGO, Ivory Coast, Cote d'Ivoire, sustainable development">
     <meta name="description" content="FEMDEV exists to strengthen the economic 
 		and social capacities of women and girls to transform them into drivers of sustainable development">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -122,12 +123,16 @@
 
     <!--Theme Responsive css-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
-
+    <style>
+        html{
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+    </style>
 
 </head>
 
 <body>
-
 <nav class="navbar navbar-expand-md bg-light navbar-light">
     <div class="container-fluid">
         <a class="nav-brand" href="index.php?page=home">
@@ -136,21 +141,21 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse collapsibleNavbar">
-            <ul class="nav float-right">
-                <li class="nav-item col-md-10">
-                    <script async src="https://cse.google.com/cse.js?cx=006140751344758873809:zcuhzrhquza"></script>
-                    <div class="gcse-searchbox-only"></div>
+        <div class="collapse navbar-collapse collapsibleNavbar justify-content-end" style="border:1px solid black;">
+            <ul class="nav" style="border:1px solid black;">
+                <li class="nav-item mr-5">
+                    <div style="border:1px solid black;">
+                        <script async src="https://cse.google.com/cse.js?cx=006140751344758873809:zcuhzrhquza"></script>
+                        <div style="width:1000%;max-width:400px;" class="gcse-searchbox-only"></div>
                 </li>
-                <li class="nav-item col-md-2">
-                    <a class="btn btn-primary" href="https://co.clickandpledge.com/sp/d1/default.aspx?wid=75848" class="btn btn-primary">
+                <li class="nav-item" style="border:1px solid blue;">
+                    <a href="https://co.clickandpledge.com/sp/d1/default.aspx?wid=75848" class="btn btn-primary">
                         Donate Now
                     </a>
                 </li>  
             </ul>
-            
+        </div>
     </div>
-</div>
 </nav>
 <nav class="navbar xs-header xs-fullWidth navbar-expand-md" style="background-color: #011b58;">
     <div class="collapse navbar-collapse collapsibleNavbar">
