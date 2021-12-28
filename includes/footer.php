@@ -36,33 +36,26 @@
                 </div>
             </div>
             <div class="global-footer__grid">
-                <h3 style="text-align: center;">Organisations We Partner With</h3>
+                <h3 style="text-align: center;">Technical and Financial Partners</h3>
                 <div class="grid__column col-md-10 offset-md-2">
                     <div class=" global_partners ">
                         <div class="row">
-                            <div class="col-md-3">
-                              <a target="_blank" href="https://regardsprotestants.com/partenaires/dieu-tv/?gclid=CjwKCAjw_47YBRBxEiwAYuKdw4lDoD-Kuey3aBpPd-1zXcoyTN3BoL6zk8S8TMgj2fJUaQJ6a4Y-ZhoCuakQAvD_BwE" target="_blank">Dieu TV </a>
+                            <div class="col-md-5">
+                                <p>Kaima Designs</p>
                             </div>
-                            <div class="col-md-3">
-                                <a target="_blank" href="http://www.pema-act.tv/" target="_blank">PEMA-ACT </a>
-                            </div>
-                            <div class="col-md-3">
-                                <a target="_blank" href="http://newlifeprojectinc.org/" target="_blank">NewLife Project </a>
+                            <div class="col-md-5">
+                                <p>NewLife Project </p>
                             </div>
                            
                         </div>
                     </div>
                     <div class="global_partners">
                         <div class="row">
-                           
-                            <div class="col-md-3">
-                                <a target="_blank" href="https://lifetouch.com/" target="_blank">Lifetouch International </a>
+                            <div class="col-md-5">
+                                <p>GirlsNotBrides</p>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-5">
                                <p> New Generation Media</p>
-                            </div>
-                            <div class="col-md-3" >
-                                <a target="_blank" href="https://www.facebook.com/newgenrationmedia/?hc_ref=ARSOttqeysUSrehfYGxO4ysnLPSwsgiTrjc-C9kartsAY1jObMqectXMYHuEMg5DRbY" target="_blank">Books by Stella Okoronkwo</a>
                             </div>
                         </div>
                     </div>
